@@ -1,0 +1,9 @@
+f73f6b802d381a06a79ea60ff7b51bcd *DESCRIPTION
+524d6cc7f3a56cd469de73c96eae4ff4 *NAMESPACE
+07209be01eb4b118292218558262e869 *NEWS.md
+097c65f5e64b7a6ba5fab1a9eb3f75b6 *R/namespace.R
+06db4295fc10aa9ed803731cbd0ff904 *R/yesno.R
+dd888c6d2a0b5f729543edf7c88160c9 *README.md
+6f0a8f17f41839375c93d4a2bb2058ff *man/yesno.Rd
+9ec614bab512665b0ef80609fc61662f *tests/testthat.R
+4f9e67d53a7cf0b6974b25ddffab011f *tests/testthat/test-yesno.R

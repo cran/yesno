@@ -1,3 +1,7 @@
+# yesno 0.1.2
+
+- More house-keeping.
+
 # yesno 0.1.1
 
 - Minor house-keeping.

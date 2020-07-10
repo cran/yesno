@@ -6,10 +6,8 @@
 <!-- badges: start -->
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![Travis build
-status](https://travis-ci.com/poissonconsulting/yesno.svg?branch=master)](https://travis-ci.com/poissonconsulting/yesno)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/yesno?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/yesno)
+[![R build
+status](https://github.com/poissonconsulting/yesno/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/yesno/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/yesno/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/yesno?branch=master)
 [![License:
@@ -78,15 +76,6 @@ To install the developmental version from
 remotes::install_github("poissonconsulting/yesno")
 ```
 
-To install the latest developmental release from the Poisson drat
-[repository](https://github.com/poissonconsulting/drat)
-
-``` r
-# install.packages("drat")
-drat::addRepo("poissonconsulting")
-install.packages("yesno")
-```
-
 ## Contribution
 
 Please report any
@@ -99,11 +88,5 @@ always welcome.
 
 Please note that the yesno project is released with a [Contributor Code
 of
-Conduct](https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/).
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
-
-## Inspiration
-
-  - The `yesno()` function is based on the internal function with the
-    same name from [devtools](https://github.com/hadley/devtools)
-    (modified to return TRUE if the user answers yes).
